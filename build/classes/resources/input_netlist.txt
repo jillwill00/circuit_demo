@@ -1,0 +1,6 @@
+INPUT(in1, in2);
+OUTPUT(out);
+
+NOR(w1, in1, in2); 
+NOT(w2, in2);
+NOR(out, w1, w2);
